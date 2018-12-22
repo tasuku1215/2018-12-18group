@@ -1,0 +1,68 @@
+@charset "utf-8";
+// ===================================================================
+// 設定
+// ===================================================================
+ 
+ 
+// HTML5の場合は値を「false」から「true」にする
+$use_html5 : true;
+ 
+ 
+// 汎用クラスを使用するか
+$use_extend_object : true;
+ 
+	// 簡易ロールオーバーの値
+	$opacity_value: .55;
+ 
+	// 余白調整用のクラスを使用するか
+	$use_spacing_classes: false;
+ 
+ 
+// 画像のパス
+$img_path: "../img/";
+ 
+ 
+// ベースフォント
+$base_font: "メイリオ", "Meiryo", verdana, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+$base_font_ie: "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+ 
+ 
+// ページ全体の横幅
+$base_width: 100%;
+ 
+ 
+// 要素の基本下マージン
+$base_margin: 20px;
+
+//要素基本padding
+$base_padding : 10px;
+ 
+ 
+// メインカラー（ベースカラー）
+$main_color: #242838;
+ 
+// サブカラー
+$sub_color: #a1a1a1;
+ 
+// アクセントカラー
+$accent_color: #e73562;
+ 
+ 
+// ベーステキストカラー
+$base_text_color: #c9c9c9;
+$font_color: #ff046c;
+ 
+ 
+// ベースリンクカラー
+$link_color: #c9c9c9;
+$link_color_visited: #39f;
+$link_color_hover: #ff046c;
+$link_color_active: #00f;
+ 
+ 
+// 付与するベンダープレフィックス
+$set_prefix: -webkit-, -moz-, -ms-, -o-, '';
+ 
+ 
+// 角丸の初期値
+$br_value: 3px;
